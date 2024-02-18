@@ -19,7 +19,7 @@ export default function Tokenomics() {
    ];
 
    return (
-      <div className="wrap bg-sec py-16">
+      <div className="wrap bg-sec py-16" id="tokenomics">
          <div className="container mx-auto px-2">
             <div className="heading flex flex-wrap justify-between items-center">
                <span className="lg:text-5xl text-3xl py-4 text-white font-bold text-fierce">
@@ -28,7 +28,7 @@ export default function Tokenomics() {
                <div className="text-wrap p-2 text-sm lg:text-lg bg-slate-400 bg-opacity-10">
                   <span className="text-gray-300 font-bold">
                      Total Supply:{" "}
-                     <span className="text-grad"> 1 Million $HDX</span>
+                     <span className="text-grad"> 100 Million $HEDEX</span>
                   </span>
                </div>
             </div>{" "}

@@ -16,20 +16,22 @@ export default function HTB() {
       <div className="wrap intro py-32 bg-sec">
          <div className="container mx-auto px-2">
             <div className="grid gap-4 items-center lg:grid-cols-2">
-               <div className="text-wrap">
+               <div className="text-wrap px-3 lg:px-0">
                   <div className="heading ls text-fierce text-2xl lg:text-7xl font-extrabold text-fierce text-white uppercase">
-                     <span>How to buy $HDX</span>
+                     <span>How to buy $HEDEX</span>
                   </div>
                   <div className="text-lg col-lg-8 py-3 text-neutral-300 ">
                      <span>
-                        Here's a guide on how to buy ollie
-                        <span className="grad-text"> $HDX</span>
+                        Here's a guide on how to buy
+                        <span className="grad-text"> $HEDEX</span>
                      </span>
                   </div>
                   <div className="btn-wrap text-fierce ls">
-                     <button className="btn ls rounded-pill text-black p-3 w-full lg:w-[50%] bg-grad rounded-2xl">
-                        BUY $HEDEX
-                     </button>
+                     <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" target={"_blank"}>
+                        <button className="btn ls rounded-pill text-black p-3 w-full lg:w-[50%] bg-grad rounded-2xl">
+                           BUY $HEDEX
+                        </button>
+                     </a>
                   </div>
                </div>
 

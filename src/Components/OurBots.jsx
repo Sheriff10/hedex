@@ -8,8 +8,8 @@ export default function OurBots() {
         return { img, title, text, link }
     }
     const cardArr = [
-        cardFunc("/asset/tracker.png", "Tracking Bot", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat.", "#"),
-        cardFunc("/asset/analyzer.png", "Analyzer Bot", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat.", "#"),
+        cardFunc("/asset/tracker.png", "Tracking Bot", " Hedex Tracker Bot provides real-time monitoring of ERC-20 token purchases across wallets.", "#"),
+        cardFunc("/asset/analyzer.png", "Analyzer Bot", "Hedex Analyzer Bot offers in-depth analysis of cryptocurrency data and trends, empowering traders with actionable insights.", "#"),
     ]
     return (
         <div className="wrap bg-sec py-16 text-gray-400">
@@ -22,7 +22,7 @@ export default function OurBots() {
                 </div>
                 <div className="body">
                     <div className="text-wrap lg:w-[50%] mx-auto text-center leading-8 mb-8">
-                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, suscipit! Quasi excepturi dignissimos doloremque quos, natus inventore rerum nisi ullam distinctio facere nesciunt ipsam voluptatum qui accusamus perferendis, cupiditate corporis.</span>
+                        <span>Hedex presents two essential bots: the Tracker Bot and the Analyzer Bot. The Tracker Bot offers real-time monitoring of ERC-20 token purchases across wallets, ensuring traders receive timely notifications. Meanwhile, the Analyzer Bot provides comprehensive analysis of cryptocurrency data and trends, empowering traders with actionable insights for informed decision-making in the market.</span>
                     </div>
 
                     <div className="card-con grid lg:grid-cols-2 gap-3 i-bg-con py-3">

@@ -14,7 +14,7 @@ export default function PremiumBot() {
         "Weekly top 10 wallets report"
     ];
     return (
-        <div className="wrap bg-sec text-gray-300 py-32">
+        <div className="wrap bg-sec text-gray-300 py-32" id='premium'>
             <Container>
                 <div className="heading text-center mb-5">
                     <div className="flex  justify-center">
@@ -24,7 +24,7 @@ export default function PremiumBot() {
                 </div>
 
                 <div className="text-wrap lg:w-[60%] mx-auto pb-10 mt-3 text-center">
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, fugiat, facere totam vero quod aliquid laborum eius, aut repellendus in deserunt voluptates repudiandae? Expedita, soluta. Tempore nulla sapiente cumque iusto.</span>
+                    <span>Discover our Premium Bots – the ultimate solution for cryptocurrency trading success. Engineered for precision and efficiency, these bots provide advanced features and customizable options to maximize profitability. With flexible subscription plans tailored to individual needs, elevate your trading experience and unlock new opportunities with ease.</span>
                 </div>
 
                 <div className="grid lg:grid-cols-3 gap-10 py-5 ">
@@ -35,9 +35,6 @@ export default function PremiumBot() {
 
                                 <div className="heading text-center">
                                     <span className='text-bronze font-bold text-lg'>Bronze Package</span>
-                                    <div className="text-wrap">
-                                        <span className='text-white text-sm'>Lorem ipsum dolor sit amet.</span>
-                                    </div>
                                 </div>
                             </div>
                             <div className="text-wrap">
@@ -47,7 +44,7 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 1 ? "Tracking test lava" : list}</span>
+                                                <span>{index === 1 ? "Tracking of up to 30 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
@@ -55,7 +52,7 @@ export default function PremiumBot() {
 
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 50$ / Hold 0.1% of $HDX token</span>
+                                    <span className='font-extrabold'>Buy 50$ / Hold 0.1% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">
@@ -72,9 +69,6 @@ export default function PremiumBot() {
 
                                 <div className="heading text-center">
                                     <span className='text-gold font-bold text-lg'>Gold Package</span>
-                                    <div className="text-wrap">
-                                        <span className='text-white text-sm'>Lorem ipsum dolor sit amet.</span>
-                                    </div>
                                 </div>
                             </div>
                             <div className="text-wrap">
@@ -84,7 +78,7 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 1 ? "Tracking test lava" : list}</span>
+                                                <span>{index === 1 ? "Tracking of up to 70 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
@@ -92,7 +86,7 @@ export default function PremiumBot() {
 
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 100$ / Hold 0.2% of $HDX token</span>
+                                    <span className='font-extrabold'>Buy 100$ / Hold 0.4% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">
@@ -109,9 +103,6 @@ export default function PremiumBot() {
 
                                 <div className="heading text-center">
                                     <span className='text-silver font-bold text-lg'>Silver Package</span>
-                                    <div className="text-wrap">
-                                        <span className='text-white text-sm'>Lorem ipsum dolor sit amet.</span>
-                                    </div>
                                 </div>
                             </div>
                             <div className="text-wrap">
@@ -121,14 +112,14 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 1 ? "Tracking test lava" : list}</span>
+                                                <span>{index === 1 ? "Tracking of up to 150 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
                                 </div>
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 50$ / Hold 0.4% of $HDX token</span>
+                                    <span className='font-extrabold'>Buy 50$ / Hold 0.2% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">

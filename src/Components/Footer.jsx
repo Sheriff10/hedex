@@ -7,16 +7,19 @@ export default function Footer() {
             <div className="bg-con bg-black bg-opacity-50">
                 <Container>
                     <div className="flex flex-wrap gap-1 justify-between items-center py-3">
-                        <div className="icon-wrap">
-                            <div className="flex items-center">
+                        <div className="icon-wrap w-full lg:w-auto">
+                            <div className="flex items-center justify-center lg:justify-normal">
                                 <img src="/asset/h.png" alt="HEDEX" className='w-[50px]' />
                                 <span className='text-grad'>HEDEX</span> <span className='text-gray-300 ml-3'> All Copyright reserved. © 2024</span>
                             </div>
                         </div>
-
                         <div className="socials flex  gap-3 w-full lg:w-auto justify-center">
-                            <img src="/asset/x.PNG" alt="X (formerly Twitter)" className='w-[50px]' />
-                            <img src="/asset/telegram.PNG" alt="Telegram" className='w-[50px]' />
+                            <a href="https://x.com/hedexbot?s=21&t=4O7fqwfoOCUDViGWXA1J0w">
+                                <img src="/asset/x.PNG" alt="X (formerly Twitter)" className='w-[50px]' />
+                            </a>
+                            <a href="https://t.me/hedexbotgateway">
+                                <img src="/asset/telegram.PNG" alt="Telegram" className='w-[50px]' />
+                            </a>
                         </div>
                     </div>
                 </Container>

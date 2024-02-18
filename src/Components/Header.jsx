@@ -6,10 +6,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const navigation = [
-        { name: "Product", href: "#" },
-        { name: "Features", href: "#" },
-        { name: "Marketplace", href: "#" },
-        { name: "Company", href: "#" },
+        { name: "Home", href: "/" },
+        { name: "Hedex Bot", href: "#bot" },
+        { name: "Premium Bot", href: "#premium" },
+        { name: "$HEDEX", href: "#token" },
+        { name: "Tokenomics", href: "#tokenomics" },
     ];
     //    const navi = useNavigate();
 
@@ -68,17 +69,19 @@ export default function Header() {
                 onClose={setMobileMenuOpen}
             >
                 <div className="fixed inset-0 z-50" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-sec px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <span className="text-gray-900 font-bold text-2xl">
-                                Block<span className="text-cyan-300">vest</span>
-                            </span>
+                            <img
+                                className="w-[50px]"
+                                src="/asset/logo.png"
+                                alt=""
+                            />
                         </a>
                         <button
                             type="button"
-                            className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                            className="-m-2.5 rounded-md p-2.5 text-white"
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             <span className="sr-only">Close menu</span>
@@ -86,13 +89,13 @@ export default function Header() {
                         </button>
                     </div>
                     <div className="mt-6 flow-root">
-                        <div className="-my-6 divide-y divide-gray-500/10">
+                        <div className="-my-6 divide-y divide-gray-400/10">
                             <div className="space-y-2 py-6">
                                 {navigation.map((item) => (
                                     <a
                                         key={item.name}
                                         href={item.href}
-                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:text-gray-50 hover:bg-gray-900"
+                                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:text-gray-100 hover:bg-grad"
                                     >
                                         {item.name}
                                     </a>
@@ -101,10 +104,9 @@ export default function Header() {
                             <div className="py-6">
                                 <a
                                     href="#"
-                                    className="-mx-3 btn bg-pri  block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-900"
-                                //    onClick={() => navi("/auth/login")}
+                                    className="mx-3 btn bg-pri bg-grad text-center  block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-900"
                                 >
-                                    Log in
+                                    Documentation
                                 </a>
                             </div>
                         </div>

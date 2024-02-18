@@ -12,13 +12,16 @@ export default function Intro() {
                                 <img src="/asset/logo.png" alt="Hedex" className='mx-auto w-[250px] lg:w-auto' />
                             </div>
                             <div className="text-wrap text-gray-200 my-5">
-                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Molestiae, nihil.</span>
+                                <span className='text-white font-bold text-lg'>Navigate the Crypto World with Hedex: <br /> Where Every Trade Counts.  </span>
                             </div>
                             <div className="btn-wrap w-[400p flex gap-3 font-bold">
-                                <button className='p-2 w-[100%] bg-grad text-gray-800 rounded-3xl'>Buy $HDX</button>
+                                <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" target={"_blank"}>
+                                    <button className='p-2 w-[100%] bg-grad text-gray-800 rounded-3xl'>Buy $HEDEX</button>
+                                </a>
                                 <div className="wrap w-[100%] bg-grad p-[1px] rounded-3xl ">
-                                    <button className='p-2 w-[100%] text-black bg-white rounded-3xl'>Bots</button>
-
+                                    <a href="">
+                                        <button className='p-2 w-[100%] text-black bg-white rounded-3xl'>Bots</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

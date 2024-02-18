@@ -4,7 +4,7 @@ import GradientText from './GradientText'
 
 export default function About() {
     return (
-        <div className="wrap bg-sec text-gray-300 py-16">
+        <div className="wrap bg-sec text-gray-200 py-16">
             <Container>
                 <div className="grid lg:grid-cols-2 items-center">
                     <div className="wrap i-bg-con py-8">
@@ -18,9 +18,7 @@ export default function About() {
                                     <span className='text-3xl lg:text-5xl text-white font-extrabold'>What is HEDEX</span>
                                 </div>
                                 <div className="body py-3">
-                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem aspernatur, odit sit magni iure fugiat labore ut modi qui ullam odio doloribus nostrum aliquam consequuntur placeat! Sed, dolorem excepturi?</span> <br /> <br />
-                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem aspernatur, odit sit magni iure fugiat labore ut modi qui ullam odio doloribus nostrum aliquam consequuntur placeat! Sed, dolorem excepturi?</span>
-                                </div>
+                                Hedex is a multifaceted platform designed to empower users in the rapidly evolving landscape of decentralized finance (DeFi). <br /> <br /> At its core, Hedex serves as a comprehensive hub for accessing vital information, tools, and resources related to cryptocurrency trading, investment, and market analysis. Through its intuitive interface and powerful features, Hedex equips users with the knowledge and tools needed to navigate the complexities of the cryptocurrency market effectively.</div>
                             </div>
                         </div>
 
