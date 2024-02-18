@@ -5,7 +5,6 @@ import GradientText from './GradientText';
 
 export default function PremiumBot() {
     const sub = [
-        "Access to Hedex Lite Channel",
         "Tracking of up to 70 wallets",
         "Customizable notifications",
         "Access to Premium Channel",
@@ -44,7 +43,7 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 1 ? "Tracking of up to 30 wallets" : list}</span>
+                                                <span>{index === 0 ? "Tracking of up to 50 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
@@ -78,7 +77,7 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 1 ? "Tracking of up to 70 wallets" : list}</span>
+                                                <span>{index === 0 ? "Tracking of up to 100 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
@@ -112,7 +111,7 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 1 ? "Tracking of up to 150 wallets" : list}</span>
+                                                <span>{index === 0 ? "Tracking of up to 200 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
