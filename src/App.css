@@ -25,3 +25,6 @@
     background: url('../public/asset/lava-phone.png') no-repeat;
     background-size: cover;
 }
+body {
+   background: #080c24;
+}
