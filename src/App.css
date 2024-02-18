@@ -1,0 +1,27 @@
+.bg-grad {
+   background: linear-gradient(
+      48deg,
+      rgba(169, 254, 66, 1) 29%,
+      rgba(51, 185, 250, 1) 68%
+   );
+}
+
+.text-grad {
+   background: linear-gradient(
+      48deg,
+      rgba(169, 254, 66, 1) 29%,
+      rgba(51, 185, 250, 1) 68%
+   );
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.i-bg-con{
+    background: url('../public/asset/bg.PNG') no-repeat;
+    background-size: cover;
+}
+.i-bg-con2{
+    background: url('../public/asset/lava-phone.png') no-repeat;
+    background-size: cover;
+}
