@@ -6,10 +6,10 @@ export default function Icons() {
         return { img, name, link }
     }
     const imgArr = [
-        imgFunc("/asset/dex.png", "Dexscreener", "#"),
-        imgFunc("/asset/uniswap.png", "Uniswap", "#"),
-        imgFunc("/asset/cmc.png", "CMC", "#"),
-        imgFunc("/asset/github.png", "Github", "#"),
+        imgFunc("/asset/dex.PNG", "Dexscreener", "#"),
+        imgFunc("/asset/uniswap.PNG", "Uniswap", "#"),
+        imgFunc("/asset/cmc.PNG", "CMC", "#"),
+        imgFunc("/asset/github.PNG", "Github", "#"),
     ]
     return (
         <div className="wrap bg-grad" 
