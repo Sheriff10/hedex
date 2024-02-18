@@ -15,8 +15,8 @@ export default function Footer() {
                         </div>
 
                         <div className="socials flex  gap-3 w-full lg:w-auto justify-center">
-                            <img src="/asset/x.png" alt="X (formerly Twitter)" className='w-[50px]' />
-                            <img src="/asset/telegram.png" alt="Telegram" className='w-[50px]' />
+                            <img src="/asset/x.PNG" alt="X (formerly Twitter)" className='w-[50px]' />
+                            <img src="/asset/telegram.PNG" alt="Telegram" className='w-[50px]' />
                         </div>
                     </div>
                 </Container>
