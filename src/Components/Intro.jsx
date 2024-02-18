@@ -15,11 +15,11 @@ export default function Intro() {
                                 <span className='text-white font-bold text-lg'>Navigate the Crypto World with Hedex: <br /> Where Every Trade Counts.  </span>
                             </div>
                             <div className="btn-wrap w-[400p flex gap-3 font-bold">
-                                <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" target={"_blank"}>
+                                <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" className='w-[100%]' target={"_blank"}>
                                     <button className='p-2 w-[100%] bg-grad text-gray-800 rounded-3xl'>Buy $HEDEX</button>
                                 </a>
                                 <div className="wrap w-[100%] bg-grad p-[1px] rounded-3xl ">
-                                    <a href="">
+                                    <a href="" target={"_blank"} className="w-[100%]">
                                         <button className='p-2 w-[100%] text-black bg-white rounded-3xl'>Bots</button>
                                     </a>
                                 </div>
