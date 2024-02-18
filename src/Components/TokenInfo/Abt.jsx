@@ -1,10 +1,19 @@
-import React from 'react'
-import { FaCopy } from 'react-icons/fa'
+import React, { useState } from 'react'
+import { FaCheck, FaCopy } from 'react-icons/fa'
 import copyToClipboard from '../../utils/copy'
 import Container from '../Container'
 import GradientText from '../GradientText'
 
 export default function Abt() {
+    const [cpy, setCpy] = useState(<FaCopy />)
+
+    const toggleCpy = (text) => {
+        copyToClipboard(text)
+        setCpy(<FaCheck className='text-green-400' />)
+        setTimeout(() => {
+            setCpy(<FaCopy />)
+        }, 500);
+    }
 
     return (
         <div className="wrap bg-sec text-gray-300 py-16" id='token'>
@@ -37,7 +46,7 @@ export default function Abt() {
                                     <span className='font-bold text-grad'>$HEDEX Token Address </span>
                                     <div className="flex gap-2 flex-wrap">
                                         <div className="text-wrap flex">
-                                            <span className='w-[300px] text-ellipsis overflow-hidden bg-white bg-opacity-10 p-2'>0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5</span> <button className='bg-sec p-2 px-4' onClick={() => copyToClipboard('0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5')}><FaCopy /></button>
+                                            <span className='w-[300px] text-ellipsis overflow-hidden bg-white bg-opacity-10 p-2'>0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5</span> <button className='bg-sec p-2 px-4' onClick={() => toggleCpy('0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5')}>{cpy}</button>
                                         </div>
                                         <div className="btn-wrap">
                                             <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" target={"_blank"}>

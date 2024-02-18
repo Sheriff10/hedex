@@ -77,7 +77,7 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 0 ? "Tracking of up to 100 wallets" : list}</span>
+                                                <span>{index === 0 ? "Tracking of up to 200 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
@@ -85,11 +85,11 @@ export default function PremiumBot() {
 
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 100$ / Hold 0.4% of $HEDEX token</span>
+                                    <span className='font-extrabold'>Buy 200$ / Hold 0.4% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">
-                                    <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Purchase</button>
+                                    <button className='w-full rounded-xl bg-slate-200 py-2 text-black'>Purchase</button>
                                 </div>
                             </div>
                         </div>
@@ -111,14 +111,14 @@ export default function PremiumBot() {
                                         {sub.map((list, index) => (
                                             <li className='flex gap-2 items-center' key={index}>
                                                 <span className='bg-grad rounded-full p-[2px]'><FaCircle size={6} className='text-white' /></span>
-                                                <span>{index === 0 ? "Tracking of up to 200 wallets" : list}</span>
+                                                <span>{index === 0 ? "Tracking of up to 100 wallets" : list}</span>
                                             </li>
                                         ))}
                                     </ul>
                                 </div>
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 50$ / Hold 0.2% of $HEDEX token</span>
+                                    <span className='font-extrabold'>Buy 100$ / Hold 0.2% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">

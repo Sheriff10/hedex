@@ -16,5 +16,4 @@ export default function copyToClipboard(text) {
 
     // Remove the temporary input element
     document.body.removeChild(input);
-    alert("Copied")
 }
