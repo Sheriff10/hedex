@@ -7,8 +7,8 @@ export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const navigation = [
         { name: "Home", href: "/" },
-        { name: "Hedex Bot", href: "#bot" },
-        { name: "Premium Bot", href: "#premium" },
+        { name: "Hedex Bots", href: "#bot" },
+        { name: "Premium Features", href: "#premium" },
         { name: "$HEDEX", href: "#token" },
         { name: "Tokenomics", href: "#tokenomics" },
     ];

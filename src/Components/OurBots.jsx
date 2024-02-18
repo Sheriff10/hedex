@@ -36,7 +36,7 @@ export default function OurBots() {
                                         <div className="text-head text-center text-white font-bold">
                                             <span>{card.title}</span>
                                         </div>
-                                        <div className="text-wrap py-3">
+                                        <div className="text-wrap py-3 text-white">
                                             <span>{card.text}</span>
                                         </div>
                                         <div className="btn-wrap">

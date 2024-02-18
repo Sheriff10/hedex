@@ -28,7 +28,7 @@ export default function Bots() {
                         <span className=' font-extrabold text-3xl lg:text-5xl text-white'> <span className='text-grad'>Analyzer</span> Bot</span>
                     </div>
                     <div className="text mt-4">
-                        The Hedex Analyzer Bot is a powerful tool designed to simplify and enhance cryptocurrency trading and analysis. It provides users with a range of features aimed at streamlining the process of gathering essential data and insights to make informed trading decisions.
+                        The Hedex Analyzer Bot is a powerful tool designed to simplify and enhance cryptocurrency trading and analysis. It provides users with a range of features aimed at streamlining the process of gathering essential data and insights to make informed trading decisions. we gather information directly from the blockchain to give you the very best information. we provide Profit and Loss metrics over various time frames, Trading volume, how much the wallet brought and sold, their biggest wins, we even show you if they use any other trading bot to execute their trades. Hedex will also scan any contract to give you the best traders and most profitable wallets on individual tokens.
                     </div>
                 </div>
 
