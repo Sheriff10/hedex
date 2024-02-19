@@ -8,8 +8,8 @@ export default function Icons() {
     const imgArr = [
         imgFunc("/asset/dex.PNG", "Dexscreener", "https://dexscreener.com/ethereum/0xfcba8327ab52cc154a9fefcb0e5e0f3be08ba120"),
         imgFunc("/asset/uniswap.PNG", "Uniswap", "https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5"),
-        imgFunc("/asset/gecko.png", "CoinGecko", "https://www.coingecko.com/en/coins/hedex"),
-        imgFunc("/asset/cmc.PNG", "CoinMarketCap", "#"),
+        imgFunc("/asset/x.PNG", "Twitter", "https://x.com/hedexbot?s=21&t=4O7fqwfoOCUDViGWXA1J0w"),
+        imgFunc("/asset/telegram.PNG", "Telegram", "https://t.me/hedexbotgateway"),
     ]
     return (
         <div className="wrap bg-grad"
