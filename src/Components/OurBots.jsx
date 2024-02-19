@@ -8,8 +8,8 @@ export default function OurBots() {
         return { img, title, text, link }
     }
     const cardArr = [
-        cardFunc("/asset/tracker.png", "Tracking Bot", " Hedex Tracker Bot provides real-time monitoring of ERC-20 token purchases across wallets.", "https://t.me/Hedexbot"),
-        cardFunc("/asset/analyzer.png", "Analyzer Bot", "Hedex Analyzer Bot offers in-depth analysis of cryptocurrency data and trends, empowering traders with actionable insights.", " https://t.me/HedexTrackerBot"),
+        cardFunc("/asset/tracker.png", "Tracking Bot", " Hedex Tracker Bot provides real-time monitoring of ERC-20 token purchases across wallets.", "https://t.me/HedexTrackerBot"),
+        cardFunc("/asset/analyzer.png", "Analyzer Bot", "Hedex Analyzer Bot offers in-depth analysis of cryptocurrency data and trends, empowering traders with actionable insights.", "https://t.me/Hedexbot"),
     ]
     return (
         <div className="wrap bg-sec py-16 text-gray-400">
