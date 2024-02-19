@@ -8,8 +8,8 @@ export default function OurBots() {
         return { img, title, text, link }
     }
     const cardArr = [
-        cardFunc("/asset/tracker.png", "Tracking Bot", " Hedex Tracker Bot provides real-time monitoring of ERC-20 token purchases across wallets.", "#"),
-        cardFunc("/asset/analyzer.png", "Analyzer Bot", "Hedex Analyzer Bot offers in-depth analysis of cryptocurrency data and trends, empowering traders with actionable insights.", "#"),
+        cardFunc("/asset/tracker.png", "Tracking Bot", " Hedex Tracker Bot provides real-time monitoring of ERC-20 token purchases across wallets.", "https://t.me/Hedexbot"),
+        cardFunc("/asset/analyzer.png", "Analyzer Bot", "Hedex Analyzer Bot offers in-depth analysis of cryptocurrency data and trends, empowering traders with actionable insights.", " https://t.me/HedexTrackerBot"),
     ]
     return (
         <div className="wrap bg-sec py-16 text-gray-400">
@@ -40,7 +40,9 @@ export default function OurBots() {
                                             <span>{card.text}</span>
                                         </div>
                                         <div className="btn-wrap">
-                                            <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Get Started</button>
+                                            <a href={card.link} target={"_blank"}>
+                                                <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Get Started</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

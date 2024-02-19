@@ -16,7 +16,7 @@ export default function Abt() {
     }
 
     return (
-        <div className="wrap bg-sec text-gray-300 py-16" id='token'>
+        <div className="wrap bg-sec text-gray-200 py-16" id='token'>
             <Container>
                 <div className="grid lg:grid-cols-2 items-center">
                     <div className="img-wrap hidden lg:flex  ">
@@ -45,12 +45,12 @@ export default function Abt() {
                                 <div className="wrap  bg-white bg-opacity-10 backdrop-blur-3xl p-3">
                                     <span className='font-bold text-grad'>$HEDEX Token Address </span>
                                     <div className="flex gap-2 flex-wrap">
-                                        <div className="text-wrap flex">
+                                        <div className="text-wrap flex items-center">
                                             <span className='w-[300px] text-ellipsis overflow-hidden bg-white bg-opacity-10 p-2'>0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5</span> <button className='bg-sec p-2 px-4' onClick={() => toggleCpy('0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5')}>{cpy}</button>
                                         </div>
                                         <div className="btn-wrap">
                                             <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" target={"_blank"}>
-                                                <button className=' rounded-xl bg-slate-900 py-2 text-white px-5 flex items-center'> <span className='lg:hidden'>Buy on uniswap</span> <img src="/asset/uniswap.PNG" alt="Uniswap" className='w-[25px]' /></button>
+                                                <button className=' rounded-xl bg-slate-900 py-2 text-white px-5 flex items-center'> <span className='lg:hidden'>Buy on uniswap</span> <img src="/asset/uniswap.PNG" alt="Uniswap" className='w-[45px]' /></button>
                                             </a>
                                         </div>
                                     </div>

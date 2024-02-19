@@ -5,10 +5,10 @@ export default function ReadDocs() {
         <div className="wrap bg-sec">
             <div className="bg-con text-center bg-white bg-opacity-10 backdrop-blur-3xl py-16">
                 <div className="text-2xl lg:text-3xl font-extrabold text-white uppercase">
-                    <span>Step By Step guide on how <span className='text-grad'>HEDEX BOTS</span> Works</span><br />
-                    <span>
+                    <span>HOW DO HEDEX <span className='text-grad'>BOTS WORK</span>? CHECKOUT <span className='text-grad'>OUR BOT</span> <br /> DOCUMENTATION PAGES</span><br />
+                    {/* <span>
                         checkout out Bot <span className='text-grad'>Documentation</span>
-                    </span>
+                    </span> */}
                 </div>
 
                 <div className="btn-wrap mt-5">
