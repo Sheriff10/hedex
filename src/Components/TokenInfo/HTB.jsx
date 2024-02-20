@@ -1,5 +1,6 @@
 import React from "react";
 import { FaDownload, FaCoins, FaExternalLinkAlt, FaExchangeAlt } from 'react-icons/fa';
+import { useInView } from "react-intersection-observer";
 
 export default function HTB() {
    const stepFunc = (icon, title, description) => ({ icon, title, description });
@@ -11,11 +12,18 @@ export default function HTB() {
       stepFunc(<FaExchangeAlt />, "Switch ETH for $HEDEX", "Switch ETH for $HEDEX. You don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.")
    ];
 
+   const [ref, inView] = useInView({
+      threshold: 0.2
+  });
+
+  const [ref2, inView2] = useInView({
+      threshold: 0.2
+  });
 
    return (
-      <div className="wrap intro py-32 bg-sec">
+      <div className="wrap intro py-32 bg-sec" ref={ref2}>
          <div className="container mx-auto px-2">
-            <div className="grid gap-4 items-center lg:grid-cols-2">
+            <div className={`grid gap-4 items-center lg:grid-cols-2 ${inView2 ? "fadeInLeft" : "fadeOut"}`}>
                <div className="text-wrap px-3 lg:px-0">
                   <div className="heading ls text-fierce text-2xl lg:text-7xl font-extrabold text-fierce text-white uppercase">
                      <span>How to buy $HEDEX</span>
@@ -27,7 +35,7 @@ export default function HTB() {
                      </span>
                   </div>
                   <div className="btn-wrap text-fierce ls">
-                     <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" target={"_blank"}>
+                     <a href="https://app.uniswap.org/swap?chain=eth&outputCurrency=0xdFB03da57a3C56124c72a47729A1d0ED54D38FF5" target={"_blank"}  rel="noreferrer">
                         <button className="btn ls rounded-pill text-black p-3 w-full lg:w-[50%] bg-grad rounded-2xl">
                            BUY $HEDEX
                         </button>
@@ -38,7 +46,7 @@ export default function HTB() {
 
 
 
-               <div className="steps">
+               <div className={`steps ${inView ? "fadeInRight" : "fadeOut"}`} ref={ref}>
                   <div className="grid gap-5 p-3 ">
                      {buySteps.map((i, index) => (
                         <div className="wrap sticky bg-white rounded-md bg-opacity-10 shadow flex gap-5 items-center p-3" key={index}>

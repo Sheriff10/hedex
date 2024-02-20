@@ -1,10 +1,18 @@
 import React from 'react'
-import GradientText from './GradientText'
+import { useInView } from 'react-intersection-observer';
 
 export default function Bots() {
+    const [ref, inView] = useInView({
+        threshold: 0.2
+    });
+
+    const [ref2, inView2] = useInView({
+        threshold: 0.2
+    });
+
     return (
         <div className="wrap pt-32" id='bot'>
-            <div className="grid lg:grid-cols-3 items-center  bg-white bg-opacity-10 backdrop-blur-3xl p-5 rounded-t-3xl">
+            <div className={`grid lg:grid-cols-3 items-center  bg-white bg-opacity-10 backdrop-blur-3xl p-5 rounded-t-3xl ${inView ? "fadeInRight" : "fadeOut"}`} ref={ref}>
                 <div className="img-wrap text-center">
                     <img src="/asset/tracker.png" alt="Tracking Bot" className=' w-[100px] lg:w-[300px]' />
                 </div>
@@ -18,7 +26,7 @@ export default function Bots() {
                 </div>
             </div>
 
-            <div className="grid lg:grid-cols-3 items-center  bg-white bg-opacity-10 backdrop-blur-3xl mt-1 p-5 rounded-b-3xl">
+            <div className={`grid lg:grid-cols-3 items-center  bg-white bg-opacity-10 backdrop-blur-3xl mt-1 p-5 rounded-b-3xl ${inView2 ? "fadeInLeft" : "fadeOut"}`} ref={ref2}>
                 <div className="img-wrap text-center lg:hidden">
                     <img src="/asset/tracker.png" alt="Tracking Bot" className=' w-[100px] lg:w-[300px]' />
                 </div>

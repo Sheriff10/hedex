@@ -2,6 +2,7 @@ import React from 'react'
 import Container from './Container'
 import { FaCircle } from 'react-icons/fa'
 import GradientText from './GradientText';
+import { useInView } from 'react-intersection-observer';
 
 export default function PremiumBot() {
     const sub = [
@@ -12,8 +13,13 @@ export default function PremiumBot() {
         "Deep dive scan of top traders' wallets",
         "Weekly top 10 wallets report"
     ];
+
+    const [ref, inView] = useInView({
+        threshold: 0.2
+    });
+
     return (
-        <div className="wrap bg-sec text-gray-300 py-32" id='premium'>
+        <div className={`wrap bg-sec text-gray-300 py-32 ${inView ? "fadeIn" : "fadeOut"}`} id='premium' ref={ref}>
             <Container>
                 <div className="heading text-center mb-5">
                     <div className="flex  justify-center">
@@ -27,7 +33,7 @@ export default function PremiumBot() {
                 </div>
 
                 <div className="grid lg:grid-cols-3 gap-10 py-5 ">
-                    <div className="card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl lg:scale-90">
+                    <div className={`card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl lg:scale-90`}>
                         <div className="bg-con bg-white bg-opacity-10 backdrop-blur-3xl rounded-t-3xl p-5">
                             <div className="img-wrap bg-neutral-900 py-3 bg-opacity-70 backdrop-blur-3xl rounded-t-3xl">
                                 <img src="/asset/h.png" alt="Premium Bot" className='w-[100px] mx-auto rounded-full border-2 border-bronze' />
@@ -60,7 +66,7 @@ export default function PremiumBot() {
                         </div>
                     </div>
 
-                    <div className="hidden lg:block card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl">
+                    <div className={`hidden lg:block card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl`}>
                         <div className="bg-con bg-white bg-opacity-10 backdrop-blur-3xl rounded-t-3xl p-5">
                             <div className="img-wrap bg-neutral-900 py-3 bg-opacity-70 backdrop-blur-3xl rounded-t-3xl">
                                 <img src="/asset/h.png" alt="Premium Bot" className='w-[100px] mx-auto rounded-full border-2 border-gold' />
@@ -94,7 +100,7 @@ export default function PremiumBot() {
                         </div>
                     </div>
 
-                    <div className="card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl lg:scale-90">
+                    <div className={`card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl lg:scale-90`}>
                         <div className="bg-con bg-white bg-opacity-10 backdrop-blur-3xl rounded-t-3xl p-5">
                             <div className="img-wrap bg-neutral-900 py-3 bg-opacity-70 backdrop-blur-3xl rounded-t-3xl">
                                 <img src="/asset/h.png" alt="Premium Bot" className='w-[100px] mx-auto rounded-full border-2 border-silver' />
@@ -127,7 +133,7 @@ export default function PremiumBot() {
                         </div>
                     </div>
 
-                    <div className="lg:hidden card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl">
+                    <div className={`lg:hidden card i-bg-con2 rounded-3xl overflow-hidden shadow-2xl`}>
                         <div className="bg-con bg-white bg-opacity-10 backdrop-blur-3xl rounded-t-3xl p-5">
                             <div className="img-wrap bg-neutral-900 py-3 bg-opacity-70 backdrop-blur-3xl rounded-t-3xl">
                                 <img src="/asset/h.png" alt="Premium Bot" className='w-[100px] mx-auto rounded-full border-2 border-gold' />

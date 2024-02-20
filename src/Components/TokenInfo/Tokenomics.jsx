@@ -1,5 +1,6 @@
 import React from "react";
-import { FaMoneyBillAlt, FaChartLine, FaCode, FaCogs, FaLock, FaHandshake, FaBullseye, FaWater } from 'react-icons/fa';
+import { FaMoneyBillAlt, FaChartLine, FaCode, FaCogs, FaLock, FaHandshake } from 'react-icons/fa';
+import { useInView } from "react-intersection-observer";
 
 
 export default function Tokenomics() {
@@ -18,8 +19,12 @@ export default function Tokenomics() {
       cardFunc(<FaCode />, "5%", "Development")
    ];
 
+   const [ref, inView] = useInView({
+      threshold: 0.2
+  });
+
    return (
-      <div className="wrap bg-sec py-16" id="tokenomics">
+      <div className={`wrap bg-sec py-16 ${inView ? "fadeInLeft" : "fadeOut"}`} id="tokenomics" ref={ref}>
          <div className="container mx-auto px-2">
             <div className="heading flex flex-wrap justify-between items-center">
                <span className="lg:text-5xl text-3xl py-4 text-white font-bold text-fierce">

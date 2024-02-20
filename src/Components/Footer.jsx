@@ -14,16 +14,16 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="socials flex  gap-3 w-full lg:w-auto justify-center">
-                            <a href="https://x.com/hedexbot?s=21&t=4O7fqwfoOCUDViGWXA1J0w" target={"_blank"}>
+                            <a href="https://x.com/hedexbot?s=21&t=4O7fqwfoOCUDViGWXA1J0w" target={"_blank"}  rel="noreferrer">
                                 <img src="/asset/x.PNG" alt="X (formerly Twitter)" className='w-[40px]' />
                             </a>
-                            <a href="https://t.me/hedexbotgateway" target={"_blank"}>
+                            <a href="https://t.me/hedexbotgateway" target={"_blank"}  rel="noreferrer">
                                 <img src="/asset/telegram.PNG" alt="Telegram" className='w-[40px]' />
                             </a>
-                            <a href="https://www.youtube.com/@Hedexbot" target={"_blank"}>
+                            <a href="https://www.youtube.com/@Hedexbot" target={"_blank"}  rel="noreferrer">
                                 <img src="/asset/youtube.PNG" alt="Youtube" className='w-[40px]' />
                             </a>
-                            <a href="mailto:info@hedexbot.com" target={"_blank"}>
+                            <a href="mailto:info@hedexbot.com" target={"_blank"}  rel="noreferrer">
                                 <img src="/asset/mail.PNG" alt="Email" className='w-[40px]' />
                             </a>
                         </div>
