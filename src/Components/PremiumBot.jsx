@@ -56,7 +56,7 @@ export default function PremiumBot() {
 
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 50$ / Hold 0.1% of $HEDEX token</span>
+                                    <span className='font-extrabold'>50$/mo or Hold 0.1% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">
@@ -92,7 +92,7 @@ export default function PremiumBot() {
 
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 200$ / Hold 0.4% of $HEDEX token</span>
+                                    <span className='font-extrabold'>200$/mo or Hold 0.4% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">
@@ -127,7 +127,7 @@ export default function PremiumBot() {
                                 </div>
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 100$ / Hold 0.2% of $HEDEX token</span>
+                                    <span className='font-extrabold'>100$/mo or Hold 0.2% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">
@@ -163,7 +163,7 @@ export default function PremiumBot() {
 
                                 <div className="prices text-white mb-2">
                                     <span className='text-grad font-bold'>PRICE</span> <br />
-                                    <span className='font-extrabold'>Buy 200$ / Hold 0.4% of $HEDEX token</span>
+                                    <span className='font-extrabold'>200$/mo or Hold 0.4% of $HEDEX token</span>
                                 </div>
 
                                 <div className="btn-wrap">
