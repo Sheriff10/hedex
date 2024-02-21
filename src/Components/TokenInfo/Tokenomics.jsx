@@ -9,14 +9,14 @@ export default function Tokenomics() {
    };
 
    const cardArr = [
-      cardFunc(<FaMoneyBillAlt />, "5%", "Taxes, 5% Buy and Sell"),
-      cardFunc(<FaChartLine />, "2%", "Marketing"),
-      cardFunc(<FaCode />, "2%", "Development"),
-      cardFunc(<FaCogs />, "1%", "Deployer"),
+      cardFunc(<FaMoneyBillAlt />, "5%", "Taxes, 5% Buy and Sell (Tax)"),
+      cardFunc(<FaChartLine />, "2%", "Marketing (Tax)"),
+      cardFunc(<FaCode />, "2%", "Development (Tax)"),
+      cardFunc(<FaCogs />, "1%", "Deployer (Tax)"),
       cardFunc(<FaHandshake />, "45%", "Private Sale"),
       cardFunc(<FaLock />, "45%", "Liquidity Pool"),
-      cardFunc(<FaChartLine />, "5%", "Marketing"),
-      cardFunc(<FaCode />, "5%", "Development")
+      cardFunc(<FaChartLine />, "5%", "Marketing (Supply)"),
+      cardFunc(<FaCode />, "5%", "Development (Supply)")
    ];
 
    const [ref, inView] = useInView({
