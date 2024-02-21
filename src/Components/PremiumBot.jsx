@@ -60,7 +60,9 @@ export default function PremiumBot() {
                                 </div>
 
                                 <div className="btn-wrap">
-                                    <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Purchase</button>
+                                    <a href=" https://t.me/HedexPortalBot" target='_blank'>
+                                        <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Purchase</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +96,9 @@ export default function PremiumBot() {
                                 </div>
 
                                 <div className="btn-wrap">
-                                    <button className='w-full rounded-xl bg-slate-200 py-2 text-black'>Purchase</button>
+                                    <a href=" https://t.me/HedexPortalBot" target='_blank'>
+                                        <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Purchase</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +131,9 @@ export default function PremiumBot() {
                                 </div>
 
                                 <div className="btn-wrap">
-                                    <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Purchase</button>
+                                    <a href=" https://t.me/HedexPortalBot" target='_blank'>
+                                        <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Purchase</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +167,9 @@ export default function PremiumBot() {
                                 </div>
 
                                 <div className="btn-wrap">
-                                    <button className='w-full rounded-xl bg-slate-200 py-2 text-black'>Purchase</button>
+                                    <a href=" https://t.me/HedexPortalBot" target='_blank'>
+                                        <button className='w-full rounded-xl bg-slate-100 py-2 text-black'>Purchase</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

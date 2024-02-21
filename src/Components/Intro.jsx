@@ -18,7 +18,7 @@ export default function Intro() {
                                     <button className='p-2 w-[100%] bg-grad text-gray-800 rounded-3xl'>Buy $HEDEX</button>
                                 </a>
                                 <div className="wrap w-[100%] bg-grad p-[1px] rounded-3xl ">
-                                    <a href="https://t.me/hedexbotgateway" target={"_blank"} rel="noreferrer" className="w-[100%]">
+                                    <a href="https://t.me/HedexPortalBot" target={"_blank"} rel="noreferrer" className="w-[100%]">
                                         <button className='p-2 w-[100%] text-black bg-white rounded-3xl'>Bots</button>
                                     </a>
                                 </div>
