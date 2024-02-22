@@ -29,7 +29,7 @@ export default function PremiumBot() {
                 </div>
 
                 <div className="text-wrap lg:w-[60%] mx-auto pb-10 mt-3 text-center">
-                    <span>Discover our Premium Freatures – the ultimate solution for cryptocurrency trading success. Engineered for precision and efficiency, these bots provide advanced features and customizable options to maximize profitability. With flexible subscription plans tailored to individual needs, elevate your trading experience and unlock new opportunities with ease.</span>
+                    <span>Discover our Premium Features – the ultimate solution for cryptocurrency trading success. Engineered for precision and efficiency, these bots provide advanced features and customizable options to maximize profitability. With flexible subscription plans tailored to individual needs, elevate your trading experience and unlock new opportunities with ease.</span>
                 </div>
 
                 <div className="grid lg:grid-cols-3 gap-10 py-5 ">
