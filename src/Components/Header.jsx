@@ -21,7 +21,7 @@ export default function Header() {
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
+                    <a href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
                         <img
                             className="w-[50px]"
@@ -53,7 +53,7 @@ export default function Header() {
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a
-                        href="#"
+                        href="https://hedexbot.gitbook.io/hedex-bot/"
                         className="text-sm font-semibold leading-6 text-gray-600 btn bg-grad p-2 rounded-lg"
                     //   onClick={() => navi("/auth/login")}
                     >
@@ -71,7 +71,7 @@ export default function Header() {
                 <div className="fixed inset-0 z-50" />
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-sec px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             <img
                                 className="w-[50px]"
@@ -103,7 +103,7 @@ export default function Header() {
                             </div>
                             <div className="py-6">
                                 <a
-                                    href="#"
+                                    href="https://hedexbot.gitbook.io/hedex-bot/"
                                     className="mx-3 btn bg-pri bg-grad text-center  block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-black hover:bg-gray-900"
                                 >
                                     Documentation

@@ -12,7 +12,9 @@ export default function ReadDocs() {
                 </div>
 
                 <div className="btn-wrap mt-5">
-                    <button className=' rounded-xl bg-slate-100 py-2 text-black px-5'>Read Documentation</button>
+                    <a href="https://hedexbot.gitbook.io/hedex-bot/">
+                        <button className=' rounded-xl bg-slate-100 py-2 text-black px-5'>Read Documentation</button>
+                    </a>
                 </div>
             </div>
         </div>
