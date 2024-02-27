@@ -26,7 +26,7 @@ export default function Roadmap() {
         </div>
 
         <div className="body">
-          <div className="grid grid-cols-5 gap-10">
+          <div className="grid lg:grid-cols-5 gap-10">
             {roadmap.map((i, index) => (
               <div className="wrap bg-grad pl-2 text-sm" key={index}>
                 <div className="bg-con bg-gray-800  text-gray-300 p-5 px-3 flex gap-5 items-center h-full">
